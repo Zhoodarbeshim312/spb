@@ -1,10 +1,46 @@
 .Hero {
   padding: 40px 0;
   .content {
+    margin-top: 60px;
     display: flex;
     align-items: flex-start;
     justify-content: center;
     flex-direction: column;
     height: 80vh;
+    gap: 40px;
+    h1 {
+      font-weight: 500;
+      font-style: Medium;
+      font-size: 55px;
+      line-height: 100%;
+      text-transform: uppercase;
+      span {
+        color: #ffba01;
+      }
+    }
+    p {
+      font-weight: 400;
+      font-style: Regular;
+      font-size: 22px;
+      line-height: 130%;
+      span {
+        color: #ffba01;
+      }
+    }
+    button {
+      padding: 20px 35px;
+      border-radius: 50px;
+      background: radial-gradient(
+        106.03% 136.67% at 50% 0%,
+        #ffc400 0%,
+        #ff9900 100%
+      );
+
+      font-weight: 500;
+      font-style: Medium;
+      font-size: 18px;
+      line-height: 130%;
+      letter-spacing: 4%;
+    }
   }
 }
