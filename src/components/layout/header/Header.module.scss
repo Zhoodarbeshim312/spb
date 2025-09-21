@@ -1,0 +1,111 @@
+.Header {
+  padding: 10px 0;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background: white;
+  .content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    button {
+      font-weight: 500;
+      font-style: Medium;
+      font-size: 16px;
+      line-height: 130%;
+      letter-spacing: 4%;
+      text-align: center;
+      padding: 10px 20px;
+      border-radius: 50px;
+      color: #44444e;
+      background: radial-gradient(
+        106.03% 136.67% at 50% 0%,
+        #ffc400 0%,
+        #ff9900 100%
+      );
+    }
+    .logo {
+      display: flex;
+      align-items: center;
+      gap: 20px;
+      .line {
+        height: 65px;
+        border: 1px solid #44444e;
+      }
+    }
+    .router {
+      display: flex;
+      align-items: center;
+      gap: 30px;
+      a {
+        font-size: 20px;
+        color: black;
+      }
+    }
+    .social {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 10px;
+      p {
+        display: flex;
+        align-items: center;
+        font-weight: 400;
+        font-style: Regular;
+        font-size: 14px;
+        line-height: 150%;
+        letter-spacing: 0%;
+        span {
+          margin-left: 5px;
+          font-weight: 600;
+        }
+      }
+      .online {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        button {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          border-radius: 8px;
+          padding: 10px 15px;
+          font-size: 25px;
+        }
+        .whatsapp {
+          background: linear-gradient(
+            139.57deg,
+            rgba(0, 215, 41, 0.3) 0%,
+            #00d729 100%
+          );
+          color: white;
+        }
+        .telegram {
+          background: linear-gradient(
+            139.57deg,
+            rgba(40, 169, 234, 0.3) 0%,
+            #28a9ea 100%
+          );
+          color: white;
+        }
+        .wkantact {
+          background: #0077ff;
+          color: white;
+        }
+      }
+    }
+    .contact {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 10px;
+      h3 {
+        color: #808086;
+      }
+      p {
+        color: #808086;
+        border-bottom: 2px solid #808086;
+      }
+    }
+  }
+}
